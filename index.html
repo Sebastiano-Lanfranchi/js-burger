@@ -5,24 +5,29 @@
     <title>my burger</title>
   </head>
   <body>
+    <h1>Name your burger</h1>
     <div class="">
       <input class="primo-testo" name="text" placeholder="Name Your Burger">
     </div>
-    <div class="">
-      <input type="checkbox" name="cheese" value="">
-      <input type="checkbox" name="Egg" value="">
-      <input type="checkbox" name="Mustaard" value="">
-      <input type="checkbox" name="Tomato" value="">
-      <input type="checkbox" name="Lattuce" value="">
-      <input type="checkbox" name="Ketchup" value="">
+    <h2>Ingredients</h2>
+    <div class="list-checkbox">
+      <input class="ingredient" type="checkbox" name="cheese" value="1">
+      <input class="ingredient" type="checkbox" name="Egg" value="2">
+      <input class="ingredient" type="checkbox" name="Mustaard" value="0.5">
+      <input class="ingredient" type="checkbox" name="Tomato" value="0.5">
+      <input class="ingredient" type="checkbox" name="Lattuce" value="0.5">
+      <input class="ingredient" type="checkbox" name="Ketchup" value="0.5">
     </div>
     <div class="">
-      <input class="secondo-testo" name="text" placeholder="code">
+      Discount Coupon
+      <input class="secondo-testo" name="text" placeholder="code" value="0.1">
     </div>
     <div class="">
       <input id="button-submit" type="button" name="calculate" value="calculate">
     </div>
+    <div class="totale">
 
+    </div>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
