@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar{
+  height: 100px;
+  background-color: #FDBB40;
+}
+
+.logo{
+  float: right;
+}
+
+h1{
+  padding-top: 40px;
+  margin-left: 30px;
+}
+
+.primo-testo{
+  height: 60px;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.list-checkbox{
+  display: flex;
+}
+
+.img-resize{
+  height: 60px;
+}
+
+.list-checkbox{
+  justify-content: space-around;
+}
+
+.colonna-1{
+  flex-direction: column;
+}
+
+.container-ingrediente{
+  margin-bottom: 20px;
+}
+
+.add{
+  color: red;
+}
+
+#button-submit{
+  background-color: #FDBB40;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  justify-content: center;
+}

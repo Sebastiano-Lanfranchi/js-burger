@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>my burger</title>
-  </head>
-  <body>
-    <h1>Name your burger</h1>
-    <div class="">
-      <input class="primo-testo" name="text" placeholder="Name Your Burger">
+<head>
+  <link rel="stylesheet" href="css/master.css">
+  <meta charset="utf-8">
+  <title>my burger</title>
+</head>
+<body>
+  <main>
+    <div class="wrap">
+      <div class="navbar">
+        <img src="img/burger-top.png" class="logo"alt="">
+        <h1>Create Your Burger</h1>
+      </div>
+      <div class="">
+        <input class="primo-testo" name="text" placeholder="Name Your Burger">
+      </div>
+      <h2>Ingredients</h2>
+      <div class="list-checkbox">
+        <div class="colonna-1">
+          <div class="container-ingrediente">
+            <img src="img/cheese.svg" class="img-resize" alt="formaggio">
+            <span>Cheese</span>
+            <input class="ingredient" type="checkbox" name="cheese" value="2">
+            <span class="add">Add</span>
+          </div>
+          <div class="container-ingrediente">
+            <img src="img/fried-egg.svg" class="img-resize" alt="uovo">
+            <span>Egg</span>
+            <input class="ingredient" type="checkbox" name="Egg" value="3">
+            <span class="add">Add</span>
+          </div>
+          <div class="container-ingrediente">
+            <img src="img/mustard.svg" class="img-resize" alt="mostarda">
+            <span>Mustard</span>
+            <input class="ingredient" type="checkbox" name="Mustard" value="1">
+            <span class="add">Add</span>
+          </div>
+        </div>
+        <div class="colonna-2">
+          <div class="container-ingrediente">
+            <img src="img/tomato.svg" class="img-resize" alt="pomodoro">
+            <span>Tomato</span>
+            <input class="ingredient" type="checkbox" name="Tomato" value="1">
+            <span class="add">Add</span>
+          </div>
+          <div class="container-ingrediente">
+            <img src="img/lettuce.svg" class="img-resize" alt="lattuga">
+            <span>Lettuce</span>
+            <input class="ingredient" type="checkbox" name="Lattuce" value="1">
+            <span class="add">Add</span>
+          </div>
+          <div class="container-ingrediente">
+            <img src="img/ketchup.svg" class="img-resize" alt="ketchup">
+            <span>Ketchup</span>
+            <input class="ingredient" type="checkbox" name="Ketchup" value="1">
+            <span class="add">Add</span>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        Discount Coupon
+        <input class="secondo-testo" name="text" placeholder="code" value="0.1">
+      </div>
+      <div class="bottone">
+        <input id="button-submit" type="button" name="calculate" value="calculate">
+      </div>
+      <div id="outPut">
+      </div>
     </div>
-    <h2>Ingredients</h2>
-    <div class="list-checkbox">
-      <input class="ingredient" type="checkbox" name="cheese" value="1">
-      <input class="ingredient" type="checkbox" name="Egg" value="2">
-      <input class="ingredient" type="checkbox" name="Mustaard" value="0.5">
-      <input class="ingredient" type="checkbox" name="Tomato" value="0.5">
-      <input class="ingredient" type="checkbox" name="Lattuce" value="0.5">
-      <input class="ingredient" type="checkbox" name="Ketchup" value="0.5">
-    </div>
-    <div class="">
-      Discount Coupon
-      <input class="secondo-testo" name="text" placeholder="code" value="0.1">
-    </div>
-    <div class="">
-      <input id="button-submit" type="button" name="calculate" value="calculate">
-    </div>
-    <div class="totale">
+  </main>
 
-    </div>
-    <script src="js/script.js" charset="utf-8"></script>
-  </body>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
 </html>

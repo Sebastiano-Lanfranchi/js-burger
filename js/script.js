@@ -13,6 +13,5 @@ document.getElementById('button-submit').addEventListener("click", function() {
       total += parseInt(prezzo[i].value);
     }
   }
-  document.getElementsByClassName('totale').innerText = total;
- alert(testoMessaggio)
+  outPut.innerText = total + '€';
 })
